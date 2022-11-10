@@ -1,9 +1,14 @@
-# test-mermaid
-Test mermaid
+# Tranmittals
+
+Non Naab Education Expedited Tranmittal
 
 ```mermaid
-flowchart LR
-    Start --> Stop
+graph TD;
+    NAAB-->ExpeditedTransmittal;
+    NONNAAB-->DeficiencyEvaluations
+    NONNAAB-->ZenDeskApproval
+    DeficiencyEvaluations-->ExpeditedTransmittal;
+    ZenDeskApproval-->NON_NAAB_ExpeditedTransmittal;
 ```
 
 ## Simple Graph
@@ -31,7 +36,7 @@ flowchart LR
 ```
 
 ## Medium
-        
+
 ```mermaid
 flowchart LR
     A -->|5| B
