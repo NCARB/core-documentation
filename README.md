@@ -1,6 +1,6 @@
 # Tranmittals
 
-Non Naab Education Expedited Tranmittal
+## Non Naab Education Expedited Tranmittal
 
 ```mermaid
 graph TD;
